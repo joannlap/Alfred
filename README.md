@@ -1,4 +1,4 @@
-# Alfred - reflectie behulpzaam en eerlijk
+# Alfred - one pager 
 
 Voor project Behavourial Design is dit concept naar voren gekomen om gezinsmanagers van Jeugdbescherming Amsterdam hun leerpunten inzichtelijk te krijgen zodat zij in hun ontwikkelingsproces weten wat hen te doen staat, zonder dat de huidige werkdruk wordt vergroot. Met als gevolg dat de kwaliteit van de gezinsmanagers hoger wordt waardoor de veiligheid van de kinderen eerder kan worden gewaarborgd. 
 
