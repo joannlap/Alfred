@@ -1,0 +1,433 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 5vw 5vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin-bottom: 40px;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 50pt;
+  max-width: 70vw;
+}
+
+h2 {
+  font-size: 22pt;
+}
+
+p,
+a,
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #000;
+  text-decoration: none;
+  max-width: 70vw;
+  margin-bottom: 40px;
+}
+
+a {
+  font-size: 12pt;
+  transition: ease-in 0.2s;
+}
+
+a:hover {
+  color: #ecb099;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 50px;
+}
+
+/* Hero */
+
+#hero header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero header li {
+  list-style: none;
+  display: flex;
+}
+
+#hero header li:first-of-type a {
+  font-family: "Oswald", sans-serif;
+  font-size: 22pt;
+  font-weight: 500;
+}
+
+#hero #alf {
+  color: #676b76;
+}
+
+#hero #red {
+  color: #ecb099;
+}
+
+#hero header li p {
+  font-size: 12pt;
+  margin-left: 10px;
+}
+
+#hero header li a {
+  margin-left: 10px;
+}
+
+#hero div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#hero article h1 #behulpzaam {
+  color: #ecb099;
+}
+
+#hero article h1 #eerlijk {
+  color: #676b76;
+}
+
+#hero article button {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 30px 15px 15px;
+  border-radius: 15px;
+  border-color: transparent;
+  font-weight: 600;
+  box-shadow: 5px 5px 50px #ddd;
+  transition: ease-in 0.2s;
+}
+
+#hero article button:hover {
+  box-shadow: 5px 5px 25px #ddd;
+  color: #ecb099;
+}
+
+#hero article button img {
+  margin-right: 20px;
+  width: 43px;
+}
+
+#hero footer {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+#hero footer img {
+  width: 58px;
+  margin-right: 20px;
+}
+
+#hero footer a {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+/* Video  */
+
+#video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+#video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px #ddd;
+}
+
+/* Screen one */
+
+#screen-one {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+#screen-one img {
+  height: 95vh;
+}
+
+/* Functions */
+
+#functions {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/functions-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#functions div {
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10vw;
+}
+
+#functions article {
+  padding: 50px 30px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#functions article h2 {
+  margin: 0;
+}
+
+#functions #oplettende {
+  color: #676b76;
+}
+
+#functions #heldere {
+  color: #ecb099;
+}
+
+#functions #behulpzaam {
+  color: #ecb099;
+}
+
+#functions article p:last-of-type {
+  margin: 0;
+}
+
+/* Smartwatch */
+
+#smartwatch div {
+  position: relative;
+  height: 110vh;
+  background-image: url("./images/smartwatch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#smartwatch p {
+  width: 30vw;
+}
+
+#smartwatch p:first-of-type {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+}
+
+#smartwatch p:last-of-type {
+  position: absolute;
+  bottom: 10vh;
+  right: 0;
+}
+
+/* Screen two */
+
+#screen-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#screen-two div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#screen-two p {
+  width: 30vw;
+}
+
+/* Screen three */
+
+#screen-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#screen-three div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#screen-three p {
+  width: 30vw;
+}
+
+/* Safety */
+
+#safety {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/safety-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#safety div {
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10vw;
+}
+
+#safety article {
+  padding: 50px 30px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#safety article h2 {
+  margin: 0;
+}
+
+#safety #gezin {
+  color: #676b76;
+}
+
+#safety #gezinsmanager {
+  color: #676b76;
+}
+
+#safety #aanpassende {
+  color: #ecb099;
+}
+
+#safety article p:last-of-type {
+  margin: 0;
+}
+
+/* footer */
+
+#footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10vw;
+}
+
+#footer a {
+  text-align: center;
+}
+
+#footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer a {
+  margin: 0;
+}
+
+/* Mediaqueries */
+
+@media only screen and (max-width: 1200px) {
+  #functions {
+    height: 300vh;
+    justify-content: center;
+  }
+
+  #functions div {
+    grid-template-columns: 1fr;
+    width: 40vw;
+  }
+
+  #safety {
+    height: 300vh;
+    justify-content: center;
+  }
+
+  #safety div {
+    grid-template-columns: 1fr;
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    margin: 1vw 1vw;
+  }
+
+  #hero div {
+    grid-template-columns: 1fr;
+  }
+
+  #hero footer {
+    justify-content: flex-start;
+  }
+
+  #functions div {
+    width: 90vw;
+  }
+
+  #safety div {
+    width: 90vw;
+  }
+
+  #smartwatch p:first-of-type {
+    top: 0;
+  }
+
+  #smartwatch p:last-of-type {
+    bottom: 0;
+  }
+
+  #smartwatch p {
+    width: 70vw;
+  }
+
+  #screen-two {
+    grid-template-columns: 1fr;
+  }
+
+  #screen-two p {
+    width: 90vw;
+  }
+
+  #screen-three {
+    grid-template-columns: 1fr;
+  }
+
+  #screen-three p {
+    width: 90vw;
+  }
+
+  #footer {
+    grid-template-columns: 1fr;
+  }
+}
