@@ -12,8 +12,5 @@ Door middel van het meten van de hartvariabiliteit wordt de stress gemeten tijde
 
 De gezinsmanager krijgt na het gesprek op zijn/haar telefoon de mogelijkheid om drie highlights terug te luisteren. Omdat het gehele gesprek wordt opgenomen is het mogelijk om wat verder terug/vooruit te luisteren wanneer de crux niet binnen de highlight valt.
 
-## Project Behavourial Design klas BD1 - Team 5
-- Jo-Ann Lieuw-A-Peuw (one-mins video)
 - Ids Fijen (webdesign/code)
-- Mirai van Dun
-- Ender Akkanat
+- Jo-Ann Lieuw-A-Peuw (one-mins video)
