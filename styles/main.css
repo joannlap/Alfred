@@ -207,6 +207,12 @@ section {
   border-radius: 15px;
 }
 
+#functions article:first-of-type,
+#functions article:last-of-type {
+  box-shadow: 8px 8px 35px #ddd;
+}
+
+
 #functions article h2 {
   margin: 0;
 }
@@ -311,6 +317,13 @@ section {
   padding: 50px 30px;
   background-color: #fff;
   border-radius: 15px;
+}
+
+#safety article:first-of-type {
+  box-shadow: 8px 8px 35px rgb(194, 194, 194);
+}
+#safety article:last-of-type {
+  box-shadow: 8px 8px 35px #ddd;
 }
 
 #safety article h2 {
