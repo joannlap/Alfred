@@ -1,8 +1,8 @@
 # Alfred - one pager 
 
-Dit is een static onepager site om ons concept voor Project Behavourial Design te showcasen.
+Static one-pager site voor het showcasen van ons concept voor Project Behavourial Design.
 
-Voor Project Behavourial Design is ons concept Alfred ontstaan die helpt om gezinsmanagers van Jeugdbescherming Amsterdam hun leerpunten inzichtelijk te krijgen zodat zij in hun ontwikkelingsproces weten wat hen te doen staat, zonder dat de huidige werkdruk wordt vergroot. Met als gevolg dat de kwaliteit van de gezinsmanagers hoger wordt waardoor de veiligheid van de kinderen eerder kan worden gewaarborgd. 
+Alfred helpt gezinsmanagers van Jeugdbescherming Amsterdam hun leerpunten inzichtelijk te krijgen zodat zij in hun ontwikkelingsproces weten wat hen te doen staat, zonder dat de huidige werkdruk wordt vergroot. Met als gevolg dat de kwaliteit van de gezinsmanagers hoger wordt waardoor de veiligheid van de kinderen eerder kan worden gewaarborgd. 
 
 Alfred bestaat uit een applicatie die verbinding zoekt met de smartwatch van de gezinsmanager die beschikt over een hartvariabiliteit sensor.
 
