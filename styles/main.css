@@ -71,6 +71,7 @@ section {
 #hero header ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #hero header li {
@@ -322,6 +323,7 @@ section {
 #safety article:first-of-type {
   box-shadow: 8px 8px 35px rgb(194, 194, 194);
 }
+
 #safety article:last-of-type {
   box-shadow: 8px 8px 35px #ddd;
 }
