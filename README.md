@@ -14,6 +14,6 @@ Alfred bestaat uit een applicatie die verbinding zoekt met de smartwatch van de 
 
 ***
 
-> Ids Fijen (webdesign/code)
+> Ids Fijen (Front-End)
 
 > Jo-Ann Lieuw-A-Peuw (one-mins video)
