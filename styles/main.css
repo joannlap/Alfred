@@ -171,6 +171,21 @@ section {
   box-shadow: 5px 5px 50px #ddd;
 }
 
+/* quote */
+
+#quote {
+  margin-top: 300px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quote p {
+  width: 40vw;
+}
+
+
 /* Screen one */
 
 #screen-one {
@@ -390,6 +405,10 @@ section {
   #safety div {
     grid-template-columns: 1fr;
     width: 40vw;
+  }
+
+  #quote p {
+    width: 90vw;
   }
 }
 
